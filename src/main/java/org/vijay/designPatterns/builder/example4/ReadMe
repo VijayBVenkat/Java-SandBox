@@ -1,0 +1,9 @@
+In this case, the Builder class is made as a subclass to the entity (Cat.class) file
+
+So, while accessing the builder from the main method, we would be using
+new outerClass.innerClass().setAttribute - that is, new Cat.CatBuilder().set...............
+
+One more change is..
+The constructor takes in the Builder as argument instead of the individual attributes
+And, each attribute is set using the builder
+Please refer the constructor in this and compare it against the constructor in example3.
